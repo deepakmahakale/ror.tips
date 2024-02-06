@@ -1,15 +1,18 @@
 ---
 layout: single
 title: How to rename a column in rails?
-description: >
+description: &description >
   Need to rename a column in rails?
   Let's see how to do it.
+excerpt: *description
 date: 2023-08-01
 categories:
   - rails
 tags:
   - database
   - migration
+header:
+  og_image: /assets/images/opengraph/2023-08-01-how-to-rename-a-column-in-rails.png
 ---
 
 ## Syntax

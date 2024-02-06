@@ -1,18 +1,23 @@
 ---
 layout: single
 title: How to check TODOs and FIXMEs in rails?
-description: >
+description: &description >
   Want to check all the TODO's in your rails application?
   Let's see how to do it.
+excerpt: *description
 date: 2023-09-13
 categories:
   - rails
 tags:
   - notes
-image: images/og/how-to-check-todos-in-rails.png
+header:
+  og_image: /assets/images/opengraph/2023-09-13-how-to-check-todos-in-rails.png
 ---
 
-## Find all TODO's and FIXME's in your project?
+Rails provides a way to find all the `TODO` and `FIXME` notes in your application.
+Let's see how to do it.
+
+## Find notes with any annotation (TODO's and FIXME's)
 
 ```bash
 $ bin/rails notes

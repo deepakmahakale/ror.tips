@@ -1,16 +1,18 @@
 ---
 layout: single
-title: How to change column default?
-description: >
+title: How to change column default in rails?
+description: &description >
   Need to change a column default in rails?
   Let's see how to do it.
+excerpt: *description
 date: 2023-09-05
 categories:
   - rails
 tags:
   - database
   - migration
-image: /images/og/how-to-change-column-default-in-rails.jpg
+header:
+  og_image: /assets/images/opengraph/2023-09-05-how-to-change-column-default-in-rails.png
 ---
 
 ## Syntax

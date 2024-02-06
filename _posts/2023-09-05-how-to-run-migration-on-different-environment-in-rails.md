@@ -1,19 +1,22 @@
 ---
 layout: single
-title: How to run migration on different environment?
-description: >
+title: How to run migration on different environment in rails?
+description: &description >
   Need to execute the database migrations on a different environment?
   Let's see how to do it.
+excerpt: *description
+date: 2023-09-05
 categories:
   - rails
 tags:
   - database
   - migration
-date: 2023-09-05
-image: /images/og/how-to-run-migration-on-different-environment-in-rails.jpg
+header:
+  og_image: /assets/images/opengraph/2023-09-05-how-to-run-migration-on-different-environment-in-rails.png
 ---
 
 By default `rails db:migrate` will run in the `development` environment.
+Let's see how to run migrations on a different environment.
 
 In order to run migrations on another environment we need to specify the
 `RAILS_ENV` environment variable.

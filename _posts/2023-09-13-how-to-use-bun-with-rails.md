@@ -1,15 +1,17 @@
 ---
 layout: single
 title: How to use bun with rails?
-description: >
+description: &description >
   Bun + Rails 7.1
   Let's see how to do it.
+excerpt: *description
 date: 2023-09-13
 categories:
   - rails
 tags:
   - javascript
-image: images/og/how-to-use-bun-with-rails.png
+header:
+  og_image: /assets/images/opengraph/2023-09-13-how-to-use-bun-with-rails.png
 ---
 
 Bun is fast. So is Rails.

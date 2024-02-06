@@ -1,14 +1,16 @@
 ---
 layout: single
 title: How to get random number in ruby?
-description: How to generate random numbers in ruby between a specified range.
+description: &description How to generate random numbers in ruby between a specified range.
+excerpt: *description
 date: 2023-09-04
 categories:
   - ruby
 tags:
   - random
   - range
-image: /images/og/how-to-generate-random-number-in-ruby.jpg
+header:
+  og_image: /assets/images/opengraph/2023-09-04-how-to-generate-random-number-in-ruby.png
 ---
 
 ## Without an argument
