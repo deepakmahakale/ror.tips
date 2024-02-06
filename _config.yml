@@ -20,7 +20,7 @@ url                      : https://ror.tips # the base hostname & protocol for y
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "deepakmahakale/ror.tips"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -89,10 +89,10 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google-universal" # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : "" # Replace this with your ID, or delete
-    anonymize_ip         : true
+    tracking_id          : "G-BCBCM70DL5" # Replace this with your ID, or delete
+    anonymize_ip         : false
 
 
 # Site Author
