@@ -1,10 +1,12 @@
 ---
-layout: posts
+layout: single
 title: nil? vs empty? vs blank? in ruby
 description: ruby nil? vs empty? vs blank?; What is the difference?
 date: 2023-09-04
 categories:
-  - basic
+  - rails
+tags:
+  - ruby
 image: /images/og/nil-vs-empty-vs-blank-in-ruby.jpg
 ---
 

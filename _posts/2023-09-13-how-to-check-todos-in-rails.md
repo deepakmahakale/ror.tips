@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: single
 title: How to check TODOs and FIXMEs in rails?
 description: >
   Want to check all the TODO's in your rails application?
@@ -7,6 +7,8 @@ description: >
 date: 2023-09-13
 categories:
   - rails
+tags:
+  - notes
 image: images/og/how-to-check-todos-in-rails.png
 ---
 

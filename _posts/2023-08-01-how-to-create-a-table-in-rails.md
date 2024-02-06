@@ -1,11 +1,14 @@
 ---
-layout: posts
+layout: single
 title: How to create a table in rails?
 description: >
   Need to create a table in rails?
   Let's see how to do it.
 date: 2023-08-01
 categories:
+  - rails
+tags:
+  - database
   - migration
 ---
 

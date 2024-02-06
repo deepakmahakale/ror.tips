@@ -1,11 +1,14 @@
 ---
-layout: posts
+layout: single
 title: How to rollback a specific migration?
 description: >
   Need to rollback a specific database migration?
   Let's see how to do it.
 date: 2023-09-05
 categories:
+  - rails
+tags:
+  - database
   - migration
 image: /images/og/how-to-rollback-a-specific-migration-in-rails.jpg
 ---

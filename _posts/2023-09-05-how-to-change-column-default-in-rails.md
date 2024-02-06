@@ -1,11 +1,14 @@
 ---
-layout: posts
+layout: single
 title: How to change column default?
 description: >
   Need to change a column default in rails?
   Let's see how to do it.
 date: 2023-09-05
 categories:
+  - rails
+tags:
+  - database
   - migration
 image: /images/og/how-to-change-column-default-in-rails.jpg
 ---

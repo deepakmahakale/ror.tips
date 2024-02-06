@@ -1,11 +1,14 @@
 ---
-layout: posts
+layout: single
 title: How to remove a column in rails?
 description: >
   Need to remove a column in rails?
   Let's see how to do it.
 date: 2023-08-01
 categories:
+  - rails
+tags:
+  - database
   - migration
 image: /images/og/how-to-remove-a-column-in-rails.jpg
 ---

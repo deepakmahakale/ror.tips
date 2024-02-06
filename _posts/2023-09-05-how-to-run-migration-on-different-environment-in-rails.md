@@ -1,10 +1,13 @@
 ---
-layout: posts
+layout: single
 title: How to run migration on different environment?
 description: >
   Need to execute the database migrations on a different environment?
   Let's see how to do it.
 categories:
+  - rails
+tags:
+  - database
   - migration
 date: 2023-09-05
 image: /images/og/how-to-run-migration-on-different-environment-in-rails.jpg
