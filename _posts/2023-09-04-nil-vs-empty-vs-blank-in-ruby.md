@@ -26,7 +26,7 @@ header:
 
 ## nil?
 
-This method is available on all objects and ruturns `true` only when the object is `nil`.
+This method is available on all objects and returns `true` only when the object is `nil`.
 
 ```ruby
 nil.nil?               #=> true
@@ -37,7 +37,7 @@ nil.nil?               #=> true
 
 ## empty?
 
-This method is available on `String`, `Array` and `Hash` and ruturns `true` only when they are empty.
+This method is available on `String`, `Array` and `Hash` and returns `true` only when they are empty.
 Empty here means the object is not nil but does not have any value inside.
 
 For example:
