@@ -12,6 +12,18 @@ header:
   og_image: /assets/images/opengraph/2023-09-04-nil-vs-empty-vs-blank-in-ruby.png
 ---
 
+<style>
+  table {
+    font-size: inherit;
+  }
+  thead {
+    background-color: inherit;
+  }
+  th, td {
+    width: 1%;
+  }
+</style>
+
 ## nil?
 
 This method is available on all objects and ruturns `true` only when the object is `nil`.
@@ -53,63 +65,64 @@ nil.blank?              #=> true
 
 ## Comparison
 
-<table>
+<div class="language-ruby highlighter-rouge">
+<table class="highlight">
   <thead>
     <tr>
       <th></th>
-      <th>#nil?</th>
-      <th>#empty?</th>
-      <th>#blank?</th>
+      <th><span class="nf">#nil?</span></th>
+      <th><span class="nf">#empty?</span></th>
+      <th><span class="nf">#blank?</span></th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>nil</td>
-      <td>true</td>
-      <td>NoMethodError</td>
-      <td>true</td>
+      <td><span class="kp">nil</span></td>
+      <td><span class="s2">true</span></td>
+      <td><span class="no">NoMethodError</span></td>
+      <td><span class="s2">true</span></td>
     </tr>
     <tr>
-      <td>[]</td>
-      <td>false</td>
-      <td>true</td>
-      <td>true</td>
+      <td><span class="p">[]</span></td>
+      <td><span class="kp">false</span></td>
+      <td><span class="s2">true</span></td>
+      <td><span class="s2">true</span></td>
     </tr>
     <tr>
-      <td>{}</td>
-      <td>false</td>
-      <td>true</td>
-      <td>true</td>
+      <td><span class="p">{}</span></td>
+      <td><span class="kp">false</span></td>
+      <td><span class="s2">true</span></td>
+      <td><span class="s2">true</span></td>
     </tr>
     <tr>
-      <td>""</td>
-      <td>false</td>
-      <td>true</td>
-      <td>true</td>
+      <td><span class="s2">""</span></td>
+      <td><span class="kp">false</span></td>
+      <td><span class="s2">true</span></td>
+      <td><span class="s2">true</span></td>
     </tr>
     <tr>
-      <td>" "</td>
-      <td>false</td>
-      <td>false</td>
-      <td>true</td>
+      <td><span class="s2">" "</span></td>
+      <td><span class="kp">false</span></td>
+      <td><span class="kp">false</span></td>
+      <td><span class="s2">true</span></td>
     </tr>
     <tr>
-      <td>1</td>
-      <td>false</td>
-      <td>NoMethodError</td>
-      <td>false</td>
+      <td><span class="mi">1</span></td>
+      <td><span class="kp">false</span></td>
+      <td><span class="no">NoMethodError</span></td>
+      <td><span class="kp">false</span></td>
     </tr>
     <tr>
-      <td>true</td>
-      <td>false</td>
-      <td>NoMethodError</td>
-      <td>false</td>
+      <td><span class="s2">true</span></td>
+      <td><span class="kp">false</span></td>
+      <td><span class="no">NoMethodError</span></td>
+      <td><span class="kp">false</span></td>
     </tr>
     <tr>
-      <td>false</td>
-      <td>false</td>
-      <td>NoMethodError</td>
-      <td>true</td>
+      <td><span class="kp">false</span></td>
+      <td><span class="kp">false</span></td>
+      <td><span class="no">NoMethodError</span></td>
+      <td><span class="s2">true</span></td>
     </tr>
   </tbody>
 </table>
