@@ -10,6 +10,8 @@ categories:
   - rails
 tags:
   - hash
+header:
+  og_image: /assets/images/opengraph/2024-02-23-how-to-rename-keys-in-a-hash.png
 ---
 
 Ruby provides a way to rename keys in a hash using the `transform_keys` method.
