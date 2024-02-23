@@ -25,7 +25,7 @@ $ bin/rails generate migration CreateArticles
 
 Generates the following migration:
 
-```bash
+```ruby
 # db/migrate/20230803041631_create_articles.rb
 class CreateArticles < ActiveRecord::Migration[7.1]
   def change
@@ -47,8 +47,8 @@ $ bin/rails generate migration CreateArticles title content:text
 
 Generates the following migration:
 
-```bash
-# db/migrate/20230803042216_create_articles.rb
+```ruby
+# db/migrate/20230803041631_create_articles.rb
 class CreateArticles < ActiveRecord::Migration[7.1]
   def change
     create_table :articles do |t|
@@ -71,8 +71,8 @@ $ bin/rails generate migration CreateArticles title content:text user:references
 
 Generates the following migration:
 
-```bash
-# db/migrate/20230803042543_create_articles.rb
+```ruby
+# db/migrate/20230803041631_create_articles.rb
 class CreateArticles < ActiveRecord::Migration[7.1]
   def change
     create_table :articles do |t|
@@ -86,11 +86,81 @@ class CreateArticles < ActiveRecord::Migration[7.1]
 end
 ```
 
-## Table with indexes
-
-## Table with additional indexes
-
 ## Table with polymorphic associations
+
+Create an articles table with polymorphic associations
+
+```bash
+bin/rails g migration CreateArticles title content:text resource:references{polymorphic}
+```
+
+Generates the following migration:
+
+```ruby
+class CreateArticles < ActiveRecord::Migration[7.1]
+  def change
+    create_table :articles do |t|
+      t.string :title
+      t.text :content
+      t.references :resource, polymorphic: true, null: false
+
+      t.timestamps
+    end
+  end
+end
+```
+
+## Table with index
+
+Create an articles table with index
+
+```bash
+bin/rails generate migration CreateArticles title content:text slug:index
+```
+
+Generates the following migration:
+
+```ruby
+# db/migrate/20230803041631_create_articles.rb
+class CreateArticles < ActiveRecord::Migration[7.1]
+  def change
+    create_table :articles do |t|
+      t.string :title
+      t.text :content
+      t.string :slug
+
+      t.timestamps
+    end
+    add_index :articles, :slug
+  end
+end
+```
+
+## Table with uniq index
+
+
+Create an articles table with uniq index
+
+```bash
+bin/rails g migration CreateArticles title content:text slug:uniq
+```
+
+Generates the following migration:
+
+```ruby
+class CreateArticles < ActiveRecord::Migration[7.1]
+  def change
+    create_table :articles do |t|
+      t.string :title
+      t.text :content
+      t.string :slug
+
+      t.timestamps
+    end
+    add_index :articles, :slug, unique: true
+  end
+end
+```
 
 ## References
 
