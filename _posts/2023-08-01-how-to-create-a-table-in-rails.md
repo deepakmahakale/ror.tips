@@ -91,12 +91,13 @@ end
 Create an articles table with polymorphic associations
 
 ```bash
-bin/rails g migration CreateArticles title content:text resource:references{polymorphic}
+bin/rails generate migration CreateArticles title content:text resource:references{polymorphic}
 ```
 
 Generates the following migration:
 
 ```ruby
+# db/migrate/20230803041631_create_articles.rb
 class CreateArticles < ActiveRecord::Migration[7.1]
   def change
     create_table :articles do |t|
@@ -142,12 +143,13 @@ end
 Create an articles table with uniq index
 
 ```bash
-bin/rails g migration CreateArticles title content:text slug:uniq
+bin/rails generate migration CreateArticles title content:text slug:uniq
 ```
 
 Generates the following migration:
 
 ```ruby
+# db/migrate/20230803041631_create_articles.rb
 class CreateArticles < ActiveRecord::Migration[7.1]
   def change
     create_table :articles do |t|
