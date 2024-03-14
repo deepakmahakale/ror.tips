@@ -7,10 +7,10 @@ description: &description >
 excerpt: *description
 date: 2023-09-05
 categories:
-  - rails
+  - Rails
 tags:
-  - database
-  - migration
+  - Database
+  - Migration
 header:
   og_image: /assets/images/opengraph/2023-09-05-how-to-run-a-specific-migration-in-rails.png
 ---

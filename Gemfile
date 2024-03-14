@@ -16,6 +16,8 @@ gem "minimal-mistakes-jekyll"
 group :jekyll_plugins do
   gem "github-pages"
   gem "jekyll-algolia", "~> 1.0"
+  # Do not delete: We need this for algolia
+  gem "jekyll-archives"
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-include-cache"
 end

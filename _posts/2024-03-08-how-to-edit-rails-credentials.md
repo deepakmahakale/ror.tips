@@ -6,9 +6,9 @@ description: &description >
 excerpt: *description
 date: 2024-03-08
 categories:
-  - rails
+  - Rails
 tags:
-  - credentials
+  - Credentials
 header:
   og_image: /assets/images/opengraph/2024-03-08-how-to-edit-rails-credentials.png
 ---

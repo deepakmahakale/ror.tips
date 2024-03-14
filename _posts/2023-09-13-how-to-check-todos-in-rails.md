@@ -7,9 +7,9 @@ description: &description >
 excerpt: *description
 date: 2023-09-13
 categories:
-  - rails
+  - Rails
 tags:
-  - notes
+  - Notes
 header:
   og_image: /assets/images/opengraph/2023-09-13-how-to-check-todos-in-rails.png
 ---

@@ -5,10 +5,10 @@ description: &description How to generate random numbers in ruby between a speci
 excerpt: *description
 date: 2023-09-04
 categories:
-  - ruby
+  - Ruby
 tags:
-  - random
-  - range
+  - Random
+  - Range
 header:
   og_image: /assets/images/opengraph/2023-09-04-how-to-generate-random-number-in-ruby.png
 ---

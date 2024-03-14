@@ -7,9 +7,9 @@ description: &description >
 excerpt: *description
 date: 2024-02-23
 categories:
-  - rails
+  - Rails
 tags:
-  - hash
+  - Hash
 header:
   og_image: /assets/images/opengraph/2024-02-23-how-to-rename-keys-in-a-hash.png
 ---

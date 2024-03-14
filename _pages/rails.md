@@ -2,6 +2,6 @@
 title: Rails
 layout: category
 permalink: /rails/
-category: rails
+category: Rails
 taxonomy: Rails
 ---

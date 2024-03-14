@@ -6,7 +6,7 @@ description: &description >
 excerpt: *description
 date: 2024-03-08
 categories:
-  - ruby
+  - Ruby
 tags:
   - CSV
 header:

@@ -5,10 +5,10 @@ description: &description Deploy Jekyll sites to S3
 excerpt: *description
 date: 2040-08-01
 categories:
-  - rails
+  - Rails
 tags:
-  - postgres
-  - database
+  - Postgres
+  - Database
 header:
   og_image: /assets/images/opengraph/2023-08-01-peer-authentication-failed-for-user-postgres.png
 ---
