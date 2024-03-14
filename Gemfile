@@ -15,6 +15,7 @@ gem "minimal-mistakes-jekyll"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "github-pages"
+  gem "jekyll-algolia", "~> 1.0"
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-include-cache"
 end
