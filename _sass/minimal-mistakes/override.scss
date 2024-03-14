@@ -1,0 +1,12 @@
+
+/* ============================== Page Related ============================== */
+.page__related {
+  @include breakpoint($large) {
+    float: right;
+    width: 100% !important;
+  }
+
+  @include breakpoint($x-large) {
+    width: 100% !important;
+  }
+}
