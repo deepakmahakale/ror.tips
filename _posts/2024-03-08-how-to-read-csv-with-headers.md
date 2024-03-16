@@ -10,9 +10,8 @@ categories:
 tags:
   - CSV
 header:
-  og_image:
+  og_image: /assets/images/opengraph/2024-03-08-how-to-read-csv-with-headers.png
 ---
-
 <style>
   table {
     font-size: inherit;
