@@ -5,6 +5,7 @@ description: &description >
   This article explains how to change a column default in rails.
 excerpt: *description
 date: 2023-09-05
+last_modified_at: 2024-03-16
 categories:
   - Rails
 tags:
