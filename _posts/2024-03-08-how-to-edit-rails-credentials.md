@@ -37,7 +37,7 @@ This will open the encrypted credentials file for the production environment (`c
 
 ## References
 
-- [https://guides.rubyonrails.org/security.html#custom-credentials](https://guides.rubyonrails.org/security.html#custom-credentials)
+- [https://guides.rubyonrails.org/security.html#custom-credentials](https://guides.rubyonrails.org/security.html#custom-credentials){:target="_blank"}
 
 **Note:** All the commands have been tested with rails 7.1 and the result may differ from prior versions
 {: .notice--info}

@@ -31,4 +31,4 @@ The above command will run the db migrations against the `test` environment.
 
 ## References
 
-- [Rails Guides - Running Migrations in Different Environments](https://guides.rubyonrails.org/active_record_migrations.html#running-migrations-in-different-environments)
+- [Rails Guides - Running Migrations in Different Environments](https://guides.rubyonrails.org/active_record_migrations.html#running-migrations-in-different-environments){:target="_blank"}

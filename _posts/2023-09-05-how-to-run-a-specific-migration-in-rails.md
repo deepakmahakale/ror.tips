@@ -52,4 +52,4 @@ No migration with version number 20000906123456.
 
 ## References
 
-- [Rails Guides - Running Specific Migrations](https://guides.rubyonrails.org/active_record_migrations.html#running-specific-migrations)
+- [Rails Guides - Running Specific Migrations](https://guides.rubyonrails.org/active_record_migrations.html#running-specific-migrations){:target="_blank"}

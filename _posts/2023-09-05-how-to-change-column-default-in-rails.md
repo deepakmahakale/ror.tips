@@ -65,4 +65,4 @@ setting default to `nil` drops the default.
 
 ## References
 
-- [Rails Guides - Changing Columns](https://guides.rubyonrails.org/active_record_migrations.html#changing-columns)
+- [Rails Guides - Changing Columns](https://guides.rubyonrails.org/active_record_migrations.html#changing-columns){:target="_blank"}

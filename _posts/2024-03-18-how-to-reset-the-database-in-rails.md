@@ -44,4 +44,4 @@ Please ensure you are executing this command in the correct environment and have
 
 ## References
 
-- [Rails Guides - Resetting the Database](https://guides.rubyonrails.org/active_record_migrations.html#resetting-the-database)
+- [Rails Guides - Resetting the Database](https://guides.rubyonrails.org/active_record_migrations.html#resetting-the-database){:target="_blank"}

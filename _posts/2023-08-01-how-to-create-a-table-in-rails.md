@@ -165,7 +165,7 @@ end
 
 ## References
 
-- [https://guides.rubyonrails.org/active_record_migrations.html](https://guides.rubyonrails.org/active_record_migrations.html)
+- [https://guides.rubyonrails.org/active_record_migrations.html](https://guides.rubyonrails.org/active_record_migrations.html){:target="_blank"}
 
 ## Note
 

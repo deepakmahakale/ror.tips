@@ -34,4 +34,4 @@ This is useful for reverting accidental changes, testing data migrations, or res
 
 ## References
 
-- [Rails Guides - Rolling back](https://guides.rubyonrails.org/active_record_migrations.html#rolling-back)
+- [Rails Guides - Rolling back](https://guides.rubyonrails.org/active_record_migrations.html#rolling-back){:target="_blank"}

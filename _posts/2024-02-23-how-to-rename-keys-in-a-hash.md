@@ -38,4 +38,4 @@ h.transform_keys(foo: :hello, &:to_s)
 
 ## References
 
-- [https://ruby-doc.org/core-3.0.0/Hash.html#method-i-transform_keys](https://ruby-doc.org/core-3.0.0/Hash.html#method-i-transform_keys)
+- [https://ruby-doc.org/core-3.0.0/Hash.html#method-i-transform_keys](https://ruby-doc.org/core-3.0.0/Hash.html#method-i-transform_keys){:target="_blank"}

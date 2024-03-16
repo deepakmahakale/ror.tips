@@ -15,7 +15,9 @@ header:
 
 Bun is fast. So is Rails.
 
-Rails 7.1 [added support](https://github.com/rails/jsbundling-rails/pull/167) to use bun as JS runtime.
+Rails 7.1
+[added support](https://github.com/rails/jsbundling-rails/pull/167){:target="_blank"}
+to use bun as JS runtime.
 
 ## Use bun with new rails application
 
