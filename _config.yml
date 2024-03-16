@@ -154,7 +154,9 @@ exclude:
   - LICENSE
   - log
   - node_modules
+  - opengraph.js
   - package.json
+  - package-lock.json
   - Rakefile
   - README
   - tmp

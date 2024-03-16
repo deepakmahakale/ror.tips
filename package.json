@@ -1,0 +1,9 @@
+{
+  "type": "module",
+  "name": "ror.tips",
+  "version": "1.0.0",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "sharp": "^0.33.2"
+  }
+}
