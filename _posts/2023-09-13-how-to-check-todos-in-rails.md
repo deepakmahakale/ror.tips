@@ -2,8 +2,7 @@
 layout: single
 title: How to check TODOs and FIXMEs in rails?
 description: &description >
-  Want to check all the TODO's in your rails application?
-  Let's see how to do it.
+  This article explains how to check TODO's and FIXME's in a rails application.
 excerpt: *description
 date: 2023-09-13
 categories:

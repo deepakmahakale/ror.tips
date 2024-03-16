@@ -2,8 +2,7 @@
 layout: single
 title: How to run a specific migration in rails?
 description: &description >
-  Need to execute a specific database migration?
-  Let's see how to do it.
+  This article explains how to run a specific migration in rails.
 excerpt: *description
 date: 2023-09-05
 categories:
@@ -49,3 +48,7 @@ ActiveRecord::UnknownMigrationVersionError:
 
 No migration with version number 20000906123456.
 ```
+
+## References
+
+- [Rails Guides - Running Specific Migrations](https://guides.rubyonrails.org/active_record_migrations.html#running-specific-migrations)

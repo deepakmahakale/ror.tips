@@ -2,8 +2,7 @@
 layout: single
 title: How to rename a column in rails?
 description: &description >
-  Need to rename a column in rails?
-  Let's see how to do it.
+  This article explains how to rename a column in rails.
 excerpt: *description
 date: 2023-08-01
 categories:

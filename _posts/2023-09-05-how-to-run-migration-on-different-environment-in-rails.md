@@ -2,8 +2,7 @@
 layout: single
 title: How to run migration on different environment in rails?
 description: &description >
-  Need to execute the database migrations on a different environment?
-  Let's see how to do it.
+  This article explains how to run migrations on a different environment in rails.
 excerpt: *description
 date: 2023-09-05
 categories:
@@ -28,3 +27,7 @@ RAILS_ENV=test rails db:migrate
 ```
 
 The above command will run the db migrations against the `test` environment.
+
+## References
+
+- [Rails Guides - Running Migrations in Different Environments](https://guides.rubyonrails.org/active_record_migrations.html#running-migrations-in-different-environments)

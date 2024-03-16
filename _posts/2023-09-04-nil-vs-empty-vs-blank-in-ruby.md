@@ -1,7 +1,8 @@
 ---
 layout: single
 title: nil? vs empty? vs blank? in ruby
-description: &description ruby nil? vs empty? vs blank?; What is the difference?
+description: &description >
+  This article explains the difference between `nil?`, `empty?`, and `blank?` in ruby.
 excerpt: *description
 date: 2023-09-04
 categories:

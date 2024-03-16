@@ -2,8 +2,7 @@
 layout: single
 title: How to rename or transform keys in a hash?
 description: &description >
-  Need to rename or transform keys in a hash?
-  Let's see how to do it.
+  This article explains how to rename or transform keys in a hash.
 excerpt: *description
 date: 2024-02-23
 categories:

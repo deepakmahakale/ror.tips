@@ -2,8 +2,7 @@
 layout: single
 title: How to use bun with rails?
 description: &description >
-  Bun + Rails 7.1
-  Let's see how to do it.
+  This article explains how to use Bun with Rails 7.1.
 excerpt: *description
 date: 2023-09-13
 categories:

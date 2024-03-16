@@ -2,8 +2,7 @@
 layout: single
 title: How to create a table in rails?
 description: &description >
-  Need to create a table in rails?
-  Let's see how to do it.
+  This article explains how to create a table in rails including fields, references, polymorphic associations, index, and uniq index.
 excerpt: *description
 date: 2023-08-01
 categories:

@@ -2,8 +2,7 @@
 layout: single
 title: How to change column default in rails?
 description: &description >
-  Need to change a column default in rails?
-  Let's see how to do it.
+  This article explains how to change a column default in rails.
 excerpt: *description
 date: 2023-09-05
 categories:
@@ -55,8 +54,14 @@ class ChangeColumnDefaultForState < ActiveRecord::Migration[7.1]
 end
 ```
 
+This migration will update the schema to set the default value of the status column to "active" for all existing records.
+
 It is recommended to pass `:from` and `:to` as it helps while reverting the migration
 
 NOTE:
 
 setting default to `nil` drops the default.
+
+## References
+
+- [Rails Guides - Changing Columns](https://guides.rubyonrails.org/active_record_migrations.html#changing-columns)
