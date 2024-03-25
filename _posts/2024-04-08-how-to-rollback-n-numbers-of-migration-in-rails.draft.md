@@ -4,14 +4,14 @@ title: How to rollback N numbers of migration in rails?
 description: &description >
   This article explains how to rollback N numbers of migration in rails.
 excerpt: *description
-date: 2024-03-25
+date: 2024-04-08
 categories:
   - Rails
 tags:
   - Database
   - Migration
 header:
-  og_image: /assets/images/opengraph/2024-03-25-how-to-rollback-n-numbers-of-migration-in-rails.png
+  og_image: /assets/images/opengraph/2024-04-08-how-to-rollback-n-numbers-of-migration-in-rails.png
 ---
 Sometimes, We need to rollback a specific number of migrations to undo series of changes.
 

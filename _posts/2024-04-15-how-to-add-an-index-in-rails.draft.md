@@ -4,14 +4,14 @@ title: How to add an index in rails?
 description: &description >
   This article explains how to add an index in rails.
 excerpt: *description
-date: 2024-08-01
+date: 2024-04-15
 categories:
   - Rails
 tags:
   - Database
   - Migration
 header:
-  og_image: /assets/images/opengraph/2024-08-01-how-to-add-an-index-in-rails.png
+  og_image: /assets/images/opengraph/2024-04-15-how-to-add-an-index-in-rails.png
 ---
 ## Syntax
 
