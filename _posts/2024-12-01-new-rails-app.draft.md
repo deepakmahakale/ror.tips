@@ -1,6 +1,6 @@
 ---
 layout: single
-title: How to create a table in rails?
+title: How to create a new rails app?
 description: &description >
   Need to create a table in rails?
   Let's see how to do it.
