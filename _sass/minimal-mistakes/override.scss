@@ -10,3 +10,44 @@
     width: 100% !important;
   }
 }
+
+@mixin updatednotice($notice-color) {
+  font-size: 0.9em !important;
+}
+
+/* Default notice */
+
+.notice {
+  @include updatednotice($light-gray);
+}
+
+/* Primary notice */
+
+.notice--primary {
+  @include updatednotice($primary-color);
+}
+
+
+/* Info notice */
+
+.notice--info {
+  @include updatednotice($info-color);
+}
+
+/* Warning notice */
+
+.notice--warning {
+  @include updatednotice($warning-color);
+}
+
+/* Success notice */
+
+.notice--success {
+  @include updatednotice($success-color);
+}
+
+/* Danger notice */
+
+.notice--danger {
+  @include updatednotice($danger-color);
+}
