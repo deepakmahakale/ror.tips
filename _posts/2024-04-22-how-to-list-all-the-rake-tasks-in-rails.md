@@ -4,13 +4,13 @@ title: How to list all the rake tasks?
 description: &description >
   This article explains how to list all the rake tasks in an application, documented as well as undocuented.
 excerpt: *description
-date: 2024-04-23
+date: 2024-04-22
 categories:
   - Rails
 tags:
   - Rake
 header:
-  og_image: /assets/images/opengraph/2024-04-23-how-to-list-all-the-rake-tasks.png
+  og_image: /assets/images/opengraph/2024-04-22-how-to-list-all-the-rake-tasks.png
 ---
 
 We often need to check the available rake tasks in a rails application.

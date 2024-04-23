@@ -4,14 +4,14 @@ title: How to check if an index already exists in rails?
 description: &description >
   This article explains efficient way to check if an index already exists on a table in rails.
 excerpt: *description
-date: 2024-04-15
+date: 2024-05-02
 categories:
   - Rails
 tags:
   - Database
   - Migration
 header:
-  og_image: /assets/images/opengraph/2024-04-15-how-to-check-if-an-index-already-exists-in-rails.png
+  og_image: /assets/images/opengraph/2024-05-02-how-to-check-if-an-index-already-exists-in-rails.png
 ---
 
 Rails provides a straightforward way to check if an index exists using the `index_exists?` method.

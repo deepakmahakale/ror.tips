@@ -52,3 +52,7 @@ class AddIndexToUsers < ActiveRecord::Migration[7.1]
   end
 end
 ```
+
+## References
+
+- [Rails API Documentation - add_column](https://api.rubyonrails.org/classes/ActiveRecord/ConnectionAdapters/SchemaStatements.html#method-i-add_index){:target="_blank"}

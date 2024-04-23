@@ -4,14 +4,14 @@ title: How to pass arguments to rake tasks?
 description: &description >
   This article explains how to pass multiple arguments to the rake tasks.
 excerpt: *description
-date: 2024-04-15
+date: 2024-05-06
 categories:
   - Rails
   - Rake
 tags:
   - Rake Task
 header:
-  og_image: /assets/images/opengraph/2024-04-15-how-to-pass-arguments-to-rake-tasks.png
+  og_image: /assets/images/opengraph/2024-05-06-how-to-pass-arguments-to-rake-tasks.png
 ---
 
 We use rake tasks for automating various repetitive tasks.

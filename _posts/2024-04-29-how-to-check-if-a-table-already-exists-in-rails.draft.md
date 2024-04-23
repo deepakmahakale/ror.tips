@@ -4,14 +4,14 @@ title: How to check if a table already exists in rails?
 description: &description >
   This article explains how to check if a table already exists in a table in rails.
 excerpt: *description
-date: 2024-04-15
+date: 2024-04-29
 categories:
   - Rails
 tags:
   - Database
   - Migration
 header:
-  og_image: /assets/images/opengraph/2024-04-15-how-to-check-if-a-table-already-exists-in-rails.png
+  og_image: /assets/images/opengraph/2024-04-29-how-to-check-if-a-table-already-exists-in-rails.png
 ---
 
 Developers often need to check if a table already exists in the database schema.
