@@ -10,7 +10,6 @@ async function handler() {
       'font-size': '70px',
     },
     'md': {
-      'offset': 570,
       'chars': 22,
       'lineheight': 120,
       'font-size': '90px',
@@ -32,15 +31,15 @@ async function handler() {
   let chars = title.length
   let variant = 'md'
 
-  if (chars <= 32) {
-    variant = 'xl'
-  } else if (chars <= 36) {
-    variant = 'lg'
-  } else if (chars <= 60) {
-    variant = 'md'
-  } else {
-    variant = 'sm'
-  }
+  // if (chars <= 32) {
+  //   variant = 'xl'
+  // } else if (chars <= 36) {
+  //   variant = 'lg'
+  // } else if (chars <= 60) {
+  //   variant = 'md'
+  // } else {
+  //   variant = 'sm'
+  // }
 
   const outputImageName = `assets/images/opengraph/${fileName}.png`;
 
@@ -48,7 +47,7 @@ async function handler() {
 
   const sentence = splitSentence(title, mapping[variant]['chars'])
   console.log('len:', sentence.length)
-  const title_y = 570 - (sentence.length * mapping[variant]['lineheight'])
+  const title_y = 315 - ((sentence.length * mapping[variant]['lineheight']) / 2)
   // Create a canvas
   let svgImage = `
         <svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
@@ -56,12 +55,19 @@ async function handler() {
           .author {
             font: bold 25px sans-serif;
           }
+          .heading {
+            fill: #CC0000;
+            font: 35px sans-serif;
+          }
           .title {
             fill: #CC0000;
             font: bold ${mapping[variant]['font-size']} sans-serif;
           }
         </style>
-        <text text-anchor="middle" y="${title_y}" class="title">${sentence.join('')}</text>
+        <rect x="0" y="0" width="1200" height="630" fill="#fffcf1" rx="0" ry="0" />
+        <rect x="30" y="30" width="1140" height="570" fill="#fffcf1" stroke="#CC0000" strokeWidth="2" />
+        <text x="45px" y="65px"  class="heading">ror.tips</text>
+        <text y="${title_y}" text-anchor="middle"  dominant-baseline="middle" class="title">${sentence.join('')}</text>
         </svg>
         `;
 
@@ -69,8 +75,7 @@ async function handler() {
   // gravity
 
   const svgBuffer = Buffer.from(svgImage);
-  const imageBuffer = await sharp(backgroundImage)
-    .composite([{ input: svgBuffer }])
+  const imageBuffer = await sharp(svgBuffer)
     .png()
     .toFile(outputImageName)
     .then(() => {
