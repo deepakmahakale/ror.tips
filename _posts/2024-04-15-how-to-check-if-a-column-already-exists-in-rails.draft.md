@@ -49,7 +49,7 @@ column_exists?(:users, :email, :string)
 # Checks if a column exists with a specific definition
 column_exists?(:products, :name, :string, limit: 100)
 column_exists?(:products, :name, :string, null: false)
-column_exists?(:products, :status, :string, default: 'pending')
+column_exists?(:products, :status, :string, default: "pending")
 column_exists?(:products, :price, :decimal, precision: 8, scale: 2)
 ```
 
