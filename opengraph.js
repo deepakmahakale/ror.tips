@@ -44,7 +44,17 @@ async function handler() {
   const outputImageName = `assets/images/opengraph/${fileName}.png`;
 
   const backgroundImage = 'assets/images/og_template.png'
-
+  const showIcon = true
+  const showText = false
+  let iconData = '';
+  let iconTextPosition = '65px';
+  if (showIcon) {
+    iconData = fs.readFileSync('assets/images/raw_logo.svg');
+    iconTextPosition = '145px';
+  }
+  if (!showText) {
+    iconTextPosition = '-30px';
+  }
   const sentence = splitSentence(title, mapping[variant]['chars'])
   console.log('len:', sentence.length)
   const title_y = 315 - ((sentence.length * mapping[variant]['lineheight']) / 2)
@@ -66,13 +76,11 @@ async function handler() {
         </style>
         <rect x="0" y="0" width="1200" height="630" fill="#fffcf1" rx="0" ry="0" />
         <rect x="30" y="30" width="1140" height="570" fill="#fffcf1" stroke="#CC0000" strokeWidth="2" />
-        <text x="50%" text-anchor="middle" y="65px"  class="heading">ror.tips</text>
+        ${iconData}
+        <text x="50%" text-anchor="middle" y="${iconTextPosition}"  class="heading">ror.tips</text>
         <text y="${title_y}" text-anchor="middle"  dominant-baseline="middle" class="title">${sentence.join('')}</text>
         </svg>
         `;
-
-  // Buffer.from(`<svg><text x="50%" y="50%" fill="${fontColor}" font-family="${fontFamily}" font-size="${fontSize}" text-anchor="middle">${text}</text></svg>`),
-  // gravity
 
   const svgBuffer = Buffer.from(svgImage);
   const imageBuffer = await sharp(svgBuffer)
