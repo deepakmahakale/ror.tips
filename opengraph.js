@@ -66,7 +66,7 @@ async function handler() {
         </style>
         <rect x="0" y="0" width="1200" height="630" fill="#fffcf1" rx="0" ry="0" />
         <rect x="30" y="30" width="1140" height="570" fill="#fffcf1" stroke="#CC0000" strokeWidth="2" />
-        <text x="45px" y="65px"  class="heading">ror.tips</text>
+        <text x="50%" text-anchor="middle" y="65px"  class="heading">ror.tips</text>
         <text y="${title_y}" text-anchor="middle"  dominant-baseline="middle" class="title">${sentence.join('')}</text>
         </svg>
         `;
