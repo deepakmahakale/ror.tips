@@ -4,7 +4,7 @@ title: How to shuffle an array in ruby?
 description: &description >
   This article explains how to shuffle an array in ruby.
 excerpt: *description
-date: 2024-03-18
+date: 2024-08-06
 categories:
   - Ruby
 tags:
