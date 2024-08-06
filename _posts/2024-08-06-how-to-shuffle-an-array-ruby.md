@@ -15,7 +15,7 @@ header:
 
 ---
 
-## `Array#shuffle` command
+## `Array#shuffle` method
 
 The `shuffle` method will shuffle the elements in an array and returns a new array.
 
@@ -27,7 +27,7 @@ array
 # => [1, 2, 3, 4, 5]
 ```
 
-## `Array#shuffle!` command
+## `Array#shuffle!` method
 
 The `shuffle!` method will shuffle the elements in an array in place.
 
