@@ -14,9 +14,9 @@ header:
   og_image: /assets/images/opengraph/2024-08-19-how-to-drop-a-table-in-rails.png
 ---
 
-## Table
+## Drop a Table
 
-Drop an articles table
+Drop users table
 
 ```bash
 $ bin/rails generate migration DropUsers
@@ -37,7 +37,7 @@ Add the following code to the migration file to drop the table:
 ```ruby
 class DropUsers < ActiveRecord::Migration[7.1]
   def change
-    drop_table :articles do |t|
+    drop_table :users do |t|
       t.string :first_name
       t.string :last_name
       t.string :email, null: false
