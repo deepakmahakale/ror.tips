@@ -16,7 +16,7 @@ permissions:
 
 jobs:
   trigger_build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     steps:
       - name: Trigger pages build
         run: |
