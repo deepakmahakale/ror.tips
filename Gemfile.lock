@@ -26,7 +26,7 @@ GEM
       execjs
     coffee-script-source (1.11.1)
     colorator (1.1.0)
-    commonmarker (0.23.10)
+    commonmarker (0.23.12)
     concurrent-ruby (1.2.3)
     connection_pool (2.4.1)
     dnsruby (1.70.0)
@@ -250,6 +250,8 @@ GEM
     mutex_m (0.2.0)
     net-http (0.4.1)
       uri
+    nokogiri (1.16.0-arm64-darwin)
+      racc (~> 1.4)
     nokogiri (1.16.0-x86_64-darwin)
       racc (~> 1.4)
     nokogiri (1.16.0-x86_64-linux)
@@ -295,6 +297,7 @@ GEM
     webrick (1.8.1)
 
 PLATFORMS
+  arm64-darwin-25
   x86_64-darwin
   x86_64-linux
 
