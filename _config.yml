@@ -5,7 +5,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
+remote_theme             : "deepakmahakale/minimal-mistakes@shared-theme"
 
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
@@ -21,6 +21,7 @@ baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "deepakmahakale/ror.tips"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/logo.svg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+mask_icon_color          : "#cc0000" # Safari pinned tab and Windows tile color
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
