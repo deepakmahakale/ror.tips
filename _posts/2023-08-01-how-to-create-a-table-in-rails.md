@@ -163,6 +163,8 @@ class CreateArticles < ActiveRecord::Migration[7.1]
 end
 ```
 
+{% include migration-guides.html %}
+
 ## References
 
 - [https://guides.rubyonrails.org/active_record_migrations.html](https://guides.rubyonrails.org/active_record_migrations.html){:target="_blank"}

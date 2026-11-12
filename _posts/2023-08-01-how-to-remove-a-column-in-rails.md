@@ -46,3 +46,5 @@ class RemovePhoneFromUsers < ActiveRecord::Migration[7.1]
   end
 end
 ```
+
+{% include migration-guides.html %}

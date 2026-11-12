@@ -1,0 +1,8 @@
+<h2 id="migration-guides">More Rails migration guides</h2>
+<ul>
+  {%- for guide in site.data.migration_guides -%}
+  {%- unless guide.url == page.url %}
+  <li><a href="{{ guide.url | relative_url }}">{{ guide.title }}</a></li>
+  {%- endunless -%}
+  {%- endfor %}
+</ul>

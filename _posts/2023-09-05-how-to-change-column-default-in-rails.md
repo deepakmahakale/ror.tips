@@ -63,6 +63,8 @@ NOTE:
 
 setting default to `nil` drops the default.
 
+{% include migration-guides.html %}
+
 ## References
 
 - [Rails Guides - Changing Columns](https://guides.rubyonrails.org/active_record_migrations.html#changing-columns){:target="_blank"}

@@ -57,6 +57,8 @@ class CreateUsers < ActiveRecord::Migration[7.1]
 end
 ```
 
+{% include migration-guides.html %}
+
 ## References
 
 - [Rails API Documentation - table_exists?](https://api.rubyonrails.org/classes/ActiveRecord/ConnectionAdapters/SchemaStatements.html#method-i-table_exists-3F){:target="_blank"}
