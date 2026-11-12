@@ -1,0 +1,25 @@
+# Linked from the bottom of every migration post via _includes/migration-guides.html
+- title: Create a table
+  url: /rails/how-to-create-a-table-in-rails/
+- title: Drop a table
+  url: /rails/how-to-drop-a-table-in-rails/
+- title: Rename a column
+  url: /rails/how-to-rename-a-column-in-rails/
+- title: Remove a column
+  url: /rails/how-to-remove-a-column-in-rails/
+- title: Change a column default
+  url: /rails/how-to-change-column-default-in-rails/
+- title: Change a column to null / not null
+  url: /rails/how-to-change-column-null-in-rails/
+- title: Add an index
+  url: /rails/how-to-add-an-index-in-rails/
+- title: Check if a table, column or index exists
+  url: /rails/how-to-check-if-a-column-already-exists-in-rails/
+- title: Run a specific migration
+  url: /rails/how-to-run-a-specific-migration-in-rails/
+- title: Run migrations on another environment
+  url: /rails/how-to-run-migration-on-different-environment-in-rails/
+- title: Rollback a migration
+  url: /rails/how-to-rollback-n-numbers-of-migration-in-rails/
+- title: Reset the database
+  url: /rails/how-to-reset-the-database-in-rails/

@@ -59,6 +59,8 @@ class AddIndexToUsersEmail < ActiveRecord::Migration[7.1]
 end
 ```
 
+{% include migration-guides.html %}
+
 ## References
 
 - [Rails API Documentation - index_exists?](https://api.rubyonrails.org/classes/ActiveRecord/ConnectionAdapters/SchemaStatements.html#method-i-index_exists-3F){:target="_blank"}
